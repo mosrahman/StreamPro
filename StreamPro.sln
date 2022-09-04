@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamPro", "StreamPro.csproj", "{9F1F43CA-835F-4C0E-A7A9-0D59370D710E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamPro.Audio", "StreamPro.Audio\StreamPro.Audio.csproj", "{CD2C92A9-6285-4ECF-B4DD-00883B3B47A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamPro.Video", "StreamPro.Video\StreamPro.Video.csproj", "{4C6D0DC9-BE69-4A85-A4FB-BD6026068EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamPro.Core", "StreamPro.Core\StreamPro.Core.csproj", "{F041F6C5-8694-4564-B548-744510BB2FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F1F43CA-835F-4C0E-A7A9-0D59370D710E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F1F43CA-835F-4C0E-A7A9-0D59370D710E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F1F43CA-835F-4C0E-A7A9-0D59370D710E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F1F43CA-835F-4C0E-A7A9-0D59370D710E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2C92A9-6285-4ECF-B4DD-00883B3B47A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2C92A9-6285-4ECF-B4DD-00883B3B47A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2C92A9-6285-4ECF-B4DD-00883B3B47A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2C92A9-6285-4ECF-B4DD-00883B3B47A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6D0DC9-BE69-4A85-A4FB-BD6026068EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6D0DC9-BE69-4A85-A4FB-BD6026068EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6D0DC9-BE69-4A85-A4FB-BD6026068EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6D0DC9-BE69-4A85-A4FB-BD6026068EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F041F6C5-8694-4564-B548-744510BB2FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F041F6C5-8694-4564-B548-744510BB2FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F041F6C5-8694-4564-B548-744510BB2FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F041F6C5-8694-4564-B548-744510BB2FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-namespace StreamPro
+namespace StreamPro.Video
 {
     public class WeatherForecast
     {

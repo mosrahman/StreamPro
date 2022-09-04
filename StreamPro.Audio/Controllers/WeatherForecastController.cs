@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace StreamPro.Controllers
+namespace StreamPro.Audio.Controllers
 {
     [ApiController]
     [Route("[controller]")]
