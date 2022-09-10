@@ -8,8 +8,8 @@ namespace StreamPro.Audio.Controllers
     [ApiController]
     public class Stream : ControllerBase
     {
-
-        [HttpGet("api/stream/{filename}")]
+        [ApiVersion("1.0")]
+        [HttpGet("api/v{version:apiVersion}/stream/{filename}")]
         public async Task<IActionResult> Get(string filename)
         {
             string path = "Media/" + filename;
