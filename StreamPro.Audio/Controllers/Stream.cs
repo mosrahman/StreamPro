@@ -9,10 +9,10 @@ namespace StreamPro.Audio.Controllers
     public class Stream : ControllerBase
     {
         [ApiVersion("1.0")]
-        [HttpGet("api/v{version:apiVersion}/stream/{filename}")]
-        public async Task<IActionResult> Get(string filename)
+        [HttpGet("api/v{version:apiVersion}/stream/{id}")]
+        public async Task<IActionResult> Get(string id)
         {
-            string path = "Media/" + filename;
+            string path = "Media/" + id;
             var memory = new MemoryStream();
             using (var stream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite, 1024, FileOptions.Asynchronous | FileOptions.SequentialScan))
             {
