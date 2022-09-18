@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using StreamPro.Audio.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,8 @@ builder.Services.AddApiVersioning(
         options.AssumeDefaultVersionWhenUnspecified = true;
         options.DefaultApiVersion = new ApiVersion(1, 0);
     });
+
+builder.Services.AddTransient<IStreamRepository, StreamRepository>();
 
 var app = builder.Build();
 

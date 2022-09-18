@@ -23,9 +23,7 @@ namespace StreamPro.Audio.Repositories
         private string GetFilePath(string id)
         {
             // write your own code here
-            string path = "Media/" + id + ".mp3";
-
-            return path;
+            throw new NotImplementedException();
         }
     }
 }
